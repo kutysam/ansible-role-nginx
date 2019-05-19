@@ -170,6 +170,7 @@ nginx_http_template:
     server_name: localhost
     error_page: /usr/share/nginx/html
     root: /usr/share/nginx/html
+    index: index index.html index.htm index.nginx-debian.html
     https_redirect: false
     autoindex: false
     auth_basic: null
